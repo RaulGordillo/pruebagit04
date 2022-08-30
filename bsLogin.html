@@ -23,6 +23,20 @@
             </div>
             
         </form>
+        <script>
+          const user = "RaulGZ"
+            const pw = 12345
+            function verificar(){
+                let usuario = document.getElementById("nombre").value
+                let clave = document.getElementById("clave").value
+                if(usuario == user && clave == pw){
+                    alert("Login existoso")
+                }else{
+                    alert("Verifique los datos ingresados")
+                }
+            }   
+        </script>
+        
         <script src="jsLogin.js"></script>
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
